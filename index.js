@@ -2,7 +2,9 @@ const apiURL = "https://api.github.com/repos/n1c00o/xn--7biy268m.ml/issues"; // 
 const labelID = 2531752619; // ID of the label for links
 
 function redirectToHome() {
-	window.location.replace(window.location.hostname);
+	window.location.replace(
+		`${window.location.protocol}//${window.location.hostname}${window.location.port ? `:${window.location.port}` : ""}`
+	);
 }
 
 async function main() {
