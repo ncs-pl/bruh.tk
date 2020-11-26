@@ -11,10 +11,10 @@ To use the app, [create an issue](https://github.com/n1c00o/xn--7biy268m.ml/issu
 
 Your shortened URL should be available at `✌👶.ml/<issue number>`.
 
+## Note
+
+I recently saw the [nelsontky's project](https://github.com/nelsontky/gh-pages-url-shortener) and I decided to create my own.
+
 ---
 
-I recently saw the [nelsontky's project](https://github.com/nelsontky/gh-pages-url-shortener) and decided to create my own.
-
----
-
-Does not hesitate to like and share this project if you enjoy it!
+Do not hesitate to like and share this project if you enjoy it!
