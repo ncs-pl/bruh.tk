@@ -14,8 +14,7 @@ async function main() {
 			method: "GET",
 			headers: {
 				accept: "application/json"
-			},
-			body: {}
+			}
 		});
 
 		if (res.status !== 200) return redirectToHome();
