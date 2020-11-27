@@ -1,4 +1,4 @@
-const apiURL = "https://api.github.com/repos/n1c00o/xn--7biy268m.ml/issues"; // Issues endpoint of your repo
+const apiURL = "https://api.github.com/repos/n1c00o/bruh.tk/issues"; // Issues endpoint of your repo
 const labelID = 2531752619; // ID of the label for links
 
 function redirectToHome() {
