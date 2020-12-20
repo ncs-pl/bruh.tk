@@ -1,0 +1,17 @@
+name: Close Issues labelled with "link"
+on:
+  schedule:
+    - cron: 0 0 * * * 
+
+jobs:
+  scheduled-close:
+    name: Close issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Close
+        uses: bdougie/close-issues-based-on-label@master
+        env:
+          LABEL: link
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
